@@ -22,6 +22,11 @@ body {
     color: #222;
 }
 
+:root {
+    --clock-color1: rgb(200, 255, 0);
+    --clock-color2: #d0f9ff;
+}
+
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -162,6 +167,7 @@ hr {
     max-width: 80px;
     display: inline-block;
     padding: 1rem;
+    animation: anim-glow 2s ease infinite;
 }
 
 .navigation-bar nav {
@@ -453,39 +459,22 @@ footer li a {
     cursor: pointer;
     position: relative;
     display: inline-block;
-    font-size: 3rem;
+    font-size: 5rem;
     background: linear-gradient(to bottom, #000, #000 60%, #fff 60%, #fff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     color: white;
     background-repeat: no-repeat;
-    transition: background 0.2s ease-out;
     white-space: nowrap;
+    transition: text-shadow 1s;
 }
 
-.my-span {
-    position: relative;
-    color: white;
-}
-
-.my-span:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    height: 5px;
-    background: rgba(137, 187, 0, 0.2);
-    color: white;
-    bottom: 1px;
-    transition: all 0.2s ease-out;
+.my-p:hover {
+    text-shadow: 0 0 10px var(--clock-color1), 0 0 20px var(--clock-color1), 0 0 40px var(--clock-color2), 0 0 80px var(--clock-color2);
 }
 
 .my-p:hover {
     background-position: 0 11px;
-}
-
-.my-span:hover:before {
-    transform: scale(25, 25) translateY(-0.5px)
 }
 
 .nav-span {
