@@ -11,7 +11,7 @@ A sample portfolio created to showcase the developer
 Use the link below to clone the repository
 https://github.com/saif-raw/portfolio.git
 
-# Things used
+# Technologies used
 
 -HTML
 -CSS
