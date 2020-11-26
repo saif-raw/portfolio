@@ -80,12 +80,12 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-a {
-    color: #1EAEDB;
+.linkedin {
+    color: #006c8d;
 }
 
-a:hover {
-    color: #0FA0CE;
+.linkedin:hover {
+    color: #003b4d;
 }
 
 img {
@@ -212,6 +212,7 @@ hr {
 }
 
 .highlight {
+    font-style: bold;
     font-style: italic;
 }
 
@@ -257,7 +258,7 @@ hr {
 }
 
 .hover-outer-box:hover .hover-inner-box {
-    opacity: .9;
+    opacity: 0.9;
     transition: opacity .5s;
 }
 
@@ -496,4 +497,67 @@ footer li a {
 
 .nav-span:hover:before {
     background: rgba(187, 255, 0, 0.397);
+}
+
+.twitter {
+    color: #000000;
+}
+
+.twitter:hover {
+    color: #00acee;
+    text-shadow: 0 0 25px #00acee;
+}
+
+.facebook {
+    color: #000000;
+}
+
+.facebook:hover {
+    color: #3b5998;
+    text-shadow: 0 0 25px #3b5998;
+}
+
+.github {
+    color: #000000;
+}
+
+.github:hover {
+    color: #1f1f1f;
+    text-shadow: 0 0 25px #1f1f1f;
+}
+
+.quora {
+    color: #000000;
+}
+
+.quora:hover {
+    color: #B92B27;
+    text-shadow: 0 0 25px #B92B27;
+}
+
+.telegram {
+    color: #000000;
+}
+
+.telegram:hover {
+    color: #0088cc;
+    text-shadow: 0 0 25px #ffffff, 2px 2px 25px #0088cc;
+}
+
+.instagram {
+    color: #000000;
+}
+
+.instagram:hover {
+    color: #3f729b;
+    text-shadow: 0 0 25px #3f729b;
+}
+
+.youtube {
+    color: black;
+}
+
+.youtube:hover {
+    color: rgb(255, 0, 0, 0.9);
+    text-shadow: 0 0 25px #ffffff, 2px 2px 25px #ff0000;
 }
