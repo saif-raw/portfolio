@@ -8,3 +8,10 @@ A sample portfolio created to showcase the developer
 
 # Clone repository
 
+Use the link below to clone the repository
+https://github.com/saif-raw/portfolio.git
+
+# Things used
+
+-HTML
+-CSS
