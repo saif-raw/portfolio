@@ -1,4 +1,4 @@
-# portfolio
+# Portfolio
 
 A sample portfolio created to showcase the developer
 - Skills
