@@ -1,32 +1,32 @@
 html {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
 *::before,
 *::after {
-    -webkit-box-sizing: inherit;
-    -moz-box-sizing: inherit;
-    box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
-    font-size: 1.0em;
-    /* currently ems cause chrome bug misinterpreting rems on body element */
-    line-height: 1.6;
-    font-weight: 400;
-    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #222;
+  font-size: 1em;
+  /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  color: #222;
 }
 
 :root {
-    --clock-color1: rgb(200, 255, 0);
-    --clock-color2: #d0f9ff;
+  --clock-color1: rgb(200, 255, 0);
+  --clock-color2: #d0f9ff;
 }
-
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -37,532 +37,525 @@ h3,
 h4,
 h5,
 h6 {
-    margin-top: 0;
-    margin-bottom: 2rem;
-    font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-weight: 300;
 }
 
 h1 {
-    font-size: 4.0rem;
-    line-height: 1.2;
+  font-size: 4rem;
+  line-height: 1.2;
 }
 
 h2 {
-    font-size: 1.8rem;
-    line-height: 1.25;
+  font-size: 1.8rem;
+  line-height: 1.25;
 }
 
 h3 {
-    font-size: 1.6rem;
-    line-height: 1.3;
+  font-size: 1.6rem;
+  line-height: 1.3;
 }
 
 h4 {
-    font-size: 1.4rem;
-    line-height: 1.35;
+  font-size: 1.4rem;
+  line-height: 1.35;
 }
 
 h5 {
-    font-size: 1.2rem;
-    line-height: 1.5;
+  font-size: 1.2rem;
+  line-height: 1.5;
 }
 
 h6 {
-    font-size: 1.0rem;
-    line-height: 1.6;
+  font-size: 1rem;
+  line-height: 1.6;
 }
 
 p {
-    margin-top: 0;
+  margin-top: 0;
 }
-
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .linkedin {
-    color: #006c8d;
+  color: #006c8d;
 }
 
 .linkedin:hover {
-    color: #003b4d;
+  color: #003b4d;
 }
 
 img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 section {
-    margin: 10rem auto;
+  margin: 10rem auto;
 }
 
 button {
-    background-color: #000;
-    border: none;
-    border-radius: 3px;
-    color: #fff;
-    height: auto;
-    padding: 8px 37px;
-    font-weight: 400;
-    text-transform: uppercase;
-    text-decoration: none;
-    text-align: center;
-    vertical-align: middle;
-    transition: all 0.5s ease;
-    cursor: pointer;
-    font-size: 0.8rem;
+  background-color: #000;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  height: auto;
+  padding: 8px 37px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  font-size: 0.8rem;
 }
 
 button:hover,
 button:focus {
-    background-color: #fff;
-    color: #000;
+  background-color: #fff;
+  color: #000;
 }
 
 button.light {
-    background-color: #fff;
-    color: #000;
+  background-color: #fff;
+  color: #000;
 }
 
 button.light:hover,
 button.light:focus {
-    background-color: #000;
-    color: #fff;
+  background-color: #000;
+  color: #fff;
 }
 
 .margin-bottom {
-    margin-bottom: 5rem;
+  margin-bottom: 5rem;
 }
 
 .margin-bottom-small {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .padding-small {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 hr {
-    border: 0;
-    border-top: 1px solid #eee;
+  border: 0;
+  border-top: 1px solid #eee;
 }
 
 .section-title {
-    margin-bottom: 70px;
-    text-transform: uppercase;
+  margin-bottom: 70px;
+  text-transform: uppercase;
 }
 
 .flex {
-    display: flex;
+  display: flex;
 }
 
 .navigation-bar {
-    position: absolute;
-    z-index: 999;
-    width: 100%;
+  position: absolute;
+  z-index: 999;
+  width: 100%;
 }
 
 .navigation-bar .logo {
-    max-width: 80px;
-    display: inline-block;
-    padding: 1rem;
-    animation: anim-glow 2s ease infinite;
+  max-width: 80px;
+  display: inline-block;
+  padding: 1rem;
+  animation: anim-glow 2s ease infinite;
 }
 
 .navigation-bar nav {
-    display: inline-block;
-    width: 100%;
+  display: inline-block;
+  width: 100%;
 }
 
 .navigation-bar nav ul li {
-    display: inline-block;
+  display: inline-block;
+  /* margin-right: 10vw; */
+  /* padding: none; */
+  /* border: 2px solid white; */
 }
 
 .navigation-bar nav a {
-    color: #fff;
-    text-decoration: none;
-    margin-right: 1rem;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 1rem;
 }
 
 .hero {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    background-color: #000;
-    color: #fff;
-    overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-color: #000;
+  color: #fff;
+  overflow: hidden;
 }
 
 .hero h1 {
-    margin: 0;
-    opacity: .9;
+  margin: 0;
+  opacity: 0.9;
 }
 
 .hero-text {
-    padding: 25px;
-    text-align: center;
-    width: 100%;
+  padding: 25px;
+  text-align: center;
+  width: 100%;
 }
 
 .hero-text p {
-    margin: 0;
-    opacity: .7;
+  margin: 0;
+  opacity: 0.7;
 }
 
 .highlight {
-    font-style: bold;
-    font-style: italic;
+  font-style: bold;
+  font-style: italic;
 }
 
 .author {
-    font-size: 0.8rem;
+  font-size: 0.8rem;
 }
 
 .team .team-name {
-    text-align: center;
+  text-align: center;
 }
 
 .team .team-name .position {
-    opacity: .7;
+  opacity: 0.7;
 }
 
 .team .team-icon {
-    max-width: 16px;
+  max-width: 16px;
 }
-
 
 /* Hover */
 
 .hover-outer-box {
-    position: relative;
-    display: flex;
-    align-content: stretch;
-    align-items: stretch;
+  position: relative;
+  display: flex;
+  align-content: stretch;
+  align-items: stretch;
 }
 
 .hover-outer-box .hover-inner-box {
-    background: rgba(0, 0, 0, 0.9);
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    top: 0;
-    left: 0;
-    position: absolute;
-    padding: 0;
-    transition: opacity .5s;
-    color: #fff;
-    display: flex;
-    align-items: center;
+  background: rgba(0, 0, 0, 0.9);
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  position: absolute;
+  padding: 0;
+  transition: opacity 0.5s;
+  color: #fff;
+  display: flex;
+  align-items: center;
 }
 
 .hover-outer-box:hover .hover-inner-box {
-    opacity: 0.9;
-    transition: opacity .5s;
+  opacity: 0.9;
+  transition: opacity 0.5s;
 }
 
 .hover-outer-box .hover-inner-box .hover-content {
-    text-align: center;
-    width: 100%;
-    padding: 1rem;
+  text-align: center;
+  width: 100%;
+  padding: 1rem;
 }
-
 
 /* Serivces */
 
 .services .icon-row {
-    padding: 30px 0;
+  padding: 30px 0;
 }
 
 .services .icon {
-    max-width: 64px;
+  max-width: 64px;
 }
-
 
 /* cta */
 
 .cta {
-    background-color: #000;
-    padding: 60px 0;
-    color: #fff;
+  background-color: #000;
+  padding: 60px 0;
+  color: #fff;
 }
 
 .cta .display {
-    margin-top: -100px;
+  margin-top: -100px;
 }
-
 
 /* blurbs */
 
 .blurbs .icon {
-    max-width: 64px;
+  max-width: 64px;
 }
 
 .blurbs h3 {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
-
 
 /* newsletter */
 
 .newsletter {
-    background-color: #eee;
-    padding: 60px 0;
+  background-color: #eee;
+  padding: 60px 0;
 }
 
 .newsletter h2 {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
-    text-transform: uppercase;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
 }
 
 .newsletter form {
-    align-content: center;
+  align-content: center;
 }
 
 .newsletter input {
-    width: 150px;
-    margin-right: 1rem;
-    background-color: #fff;
+  width: 150px;
+  margin-right: 1rem;
+  background-color: #fff;
 }
-
 
 /* contact */
 
 .contact .col-md {
-    padding: 1rem;
+  padding: 1rem;
 }
-
 
 /* forms */
 
 input,
 textarea {
-    background-color: #eee;
-    width: 100%;
-    padding: 1rem;
-    border: 0;
-    border-radius: 3px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+  background-color: #eee;
+  width: 100%;
+  padding: 1rem;
+  border: 0;
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 [type="button"],
 [type="reset"],
 [type="submit"] {
-    -webkit-appearance: button;
-    background-color: #000;
-    color: #fff;
-    cursor: pointer;
-    transition-property: background;
-    transition-duration: 0.5s;
-    transition-timing-function: ease;
+  -webkit-appearance: button;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  transition-property: background;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
 }
 
 [type="button"]:hover,
 [type="reset"]:hover,
 [type="submit"]:hover {
-    -webkit-appearance: button;
-    background-color: #000;
-    color: #fff;
-    cursor: pointer;
-    background-color: #fff;
-    color: #000;
+  -webkit-appearance: button;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
 }
-
 
 /* footer */
 
 footer {
-    background-color: #eee;
-    padding: 5rem 0;
+  background-color: #eee;
+  padding: 5rem 0;
 }
 
 footer ul {
-    padding: 0;
+  padding: 0;
 }
 
 footer li {
-    list-style: none;
+  list-style: none;
 }
 
 footer li a {
-    padding: 0;
-    color: #000;
-    text-decoration: none;
+  padding: 0;
+  color: #000;
+  text-decoration: none;
 }
 
 .secondary-footer {
-    background-color: #e1e0e0;
-    padding: 1rem;
-    margin: 0 auto;
+  background-color: #e1e0e0;
+  padding: 1rem;
+  margin: 0 auto;
 }
 
 .secondary-footer p {
-    margin: 0;
-    font-size: 0.8rem;
+  margin: 0;
+  font-size: 0.8rem;
 }
 
 .secondary-footer a {
-    text-decoration: none;
-    color: #000;
+  text-decoration: none;
+  color: #000;
 }
-
 
 /* Mediaqueries */
 
 @media (max-width: 1280px) {
-    .navigation-bar .logo {
-        margin: 0 auto;
-    }
-    .navigation-bar nav {
-        display: none;
-    }
-    .row {
-        margin: 0 auto;
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-    .cta .display {
-        margin-top: 1rem;
-    }
+  .navigation-bar .logo {
+    margin: 0 auto;
+  }
+  .navigation-bar nav {
+    display: none;
+  }
+  .row {
+    margin: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .cta .display {
+    margin-top: 1rem;
+  }
 }
-
 
 /* animation  */
 
 @-webkit-keyframes fade-in {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes fade-in {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .fade-in {
-    -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-    animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  -webkit-animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
 .my-p {
-    cursor: pointer;
-    position: relative;
-    display: inline-block;
-    font-size: 5rem;
-    background: linear-gradient(to bottom, #000, #000 60%, #fff 60%, #fff 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: white;
-    background-repeat: no-repeat;
-    white-space: nowrap;
-    transition: text-shadow 1s;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  font-size: 5rem;
+  background: linear-gradient(to bottom, #000, #000 60%, #fff 60%, #fff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: white;
+  background-repeat: no-repeat;
+  white-space: nowrap;
+  transition: text-shadow 1s;
 }
 
 .my-p:hover {
-    text-shadow: 0 0 10px var(--clock-color1), 0 0 20px var(--clock-color1), 0 0 40px var(--clock-color2), 0 0 80px var(--clock-color2);
+  text-shadow: 0 0 10px var(--clock-color1), 0 0 20px var(--clock-color1),
+    0 0 40px var(--clock-color2), 0 0 80px var(--clock-color2);
 }
 
 .my-p:hover {
-    background-position: 0 11px;
+  background-position: 0 11px;
 }
 
 .nav-span {
-    position: relative;
-    color: white;
+  position: relative;
+  color: white;
 }
 
 .nav-span:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    height: 5px;
-    background: transparent;
-    color: white;
-    bottom: 1px;
-    transition: all 0.2s ease-out;
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: transparent;
+  color: white;
+  bottom: 1px;
+  transition: all 0.2s ease-out;
 }
 
 .nav-span:hover:before {
-    background: rgba(187, 255, 0, 0.397);
+  background: rgba(187, 255, 0, 0.397);
 }
 
 .twitter {
-    color: #000000;
+  color: #000000;
 }
 
 .twitter:hover {
-    color: #00acee;
-    text-shadow: 0 0 25px #00acee;
+  color: #00acee;
+  text-shadow: 0 0 25px #00acee;
 }
 
 .facebook {
-    color: #000000;
+  color: #000000;
 }
 
 .facebook:hover {
-    color: #3b5998;
-    text-shadow: 0 0 25px #3b5998;
+  color: #3b5998;
+  text-shadow: 0 0 25px #3b5998;
 }
 
 .github {
-    color: #000000;
+  color: #000000;
 }
 
 .github:hover {
-    color: #1f1f1f;
-    text-shadow: 0 0 25px #1f1f1f;
+  color: #1f1f1f;
+  text-shadow: 0 0 25px #1f1f1f;
 }
 
 .quora {
-    color: #000000;
+  color: #000000;
 }
 
 .quora:hover {
-    color: #B92B27;
-    text-shadow: 0 0 25px #B92B27;
+  color: #b92b27;
+  text-shadow: 0 0 25px #b92b27;
 }
 
 .telegram {
-    color: #000000;
+  color: #000000;
 }
 
 .telegram:hover {
-    color: #0088cc;
-    text-shadow: 0 0 25px #ffffff, 2px 2px 25px #0088cc;
+  color: #0088cc;
+  text-shadow: 0 0 25px #ffffff, 2px 2px 25px #0088cc;
 }
 
 .instagram {
-    color: #000000;
+  color: #000000;
 }
 
 .instagram:hover {
-    color: #3f729b;
-    text-shadow: 0 0 25px #3f729b;
+  color: #3f729b;
+  text-shadow: 0 0 25px #3f729b;
 }
 
 .youtube {
-    color: black;
+  color: black;
 }
 
 .youtube:hover {
-    color: rgb(255, 0, 0, 0.9);
-    text-shadow: 0 0 25px #ffffff, 2px 2px 25px #ff0000;
+  color: rgb(255, 0, 0, 0.9);
+  text-shadow: 0 0 25px #ffffff, 2px 2px 25px #ff0000;
 }
 
 .up-ico {
-    color: black;
-    padding-left: 96%;
+  color: black;
+  padding-left: 96%;
 }
